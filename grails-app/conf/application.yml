@@ -96,8 +96,8 @@ dataSource:
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-    username: abanPlatform
-    password: AbanPlatform107_content
+    username: aban_sdp
+    password: abanSdpContent_107894
 
 environments:
     development:
