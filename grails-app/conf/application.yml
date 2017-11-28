@@ -96,22 +96,22 @@ dataSource:
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-    username: aban_sdp
-    password: abanSdpContent_107894
+    username: abanPlatform
+    password: AbanPlatform107_content
 
 environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost:3306/promo_sdp?useUnicode=true&characterEncoding=UTF-8
+            url: jdbc:mysql://localhost:3306/promo_sdp
     test:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost:3306/promo_sdp?useUnicode=true&characterEncoding=UTF-8
+            url: jdbc:mysql://localhost:3306/promo_sdp
     production:
         dataSource:
             dbCreate: none
-            url: jdbc:mysql://localhost:3306/promo_sdp?useUnicode=true&characterEncoding=UTF-8
+            url: jdbc:mysql://localhost:3306/promo_sdp
             properties:
                 jmxEnabled: true
                 initialSize: 5

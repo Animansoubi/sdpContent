@@ -5,8 +5,8 @@
     <title>Persons</title>
 </head>
 <body>
-<g:each in="${persons}" var="person" status="i">
-    <h3>${i+1}. ${person.lastName}, ${person.firstName}</h3>
+<g:each in="${query}" var="person" status="i">
+    <h3>${i+1}. ${person.firstName}, ${person.lastName}</h3>
     <p>
         Age: ${person.age}
     </p>
